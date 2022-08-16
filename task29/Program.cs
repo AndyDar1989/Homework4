@@ -5,7 +5,7 @@ int[] CreateArray(int n, int min, int max)
 {
     int[] array = new int[n];
     for (int i = 0; i < array.Length; i++)
-    array[i] = new Random().Next(min, max);
+        array[i] = new Random().Next(min, max);
     return array;
 }
 
