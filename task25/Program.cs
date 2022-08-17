@@ -5,8 +5,8 @@
 
 int PowerNumber(int num1, int num2)
 {
-    int num1_pow = num1;
-    for (int count = 2; count <= num2; count++)
+    int num1_pow = 1;
+    for (int count = 1; count <= num2; count++)
         num1_pow = num1_pow * num1;
     return num1_pow;
 }
